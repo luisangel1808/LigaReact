@@ -1,0 +1,16 @@
+footer{
+    outline:1px solid salmon;
+    height: 3rem; 
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    margin-top: auto; 
+    justify-content: space-around;
+    background-color: whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+}
+footer a{
+    text-decoration: none;
+    margin-right: 4%;
+}

@@ -1,0 +1,39 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Luis Angel Flórez Salazar",
+            "description": "Actualmente el jugador con más elo activo y blitz en el departamento, tiene 25 años de edad y busca conseguir el título de MF llegando a los 2300 en los próximos meses.",
+            "title": "",
+            "picture": "src/assets/static/players/Luis.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Edwin Adrian Navia Álvarez",
+            "description": "Primer maestro Fide del Cauca, actualmente es el entrenador departamental.",
+            "title": "MF",
+            "picture": "src/assets/static/players/Navia.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Jorge Esteban Tobar Beltrán",
+            "description": "Jóven y talentoso jugador, actualmente es el campeón nacional online sub 18.",
+            "title": "CM",
+            "picture": "src/assets/static/players/JorgeE.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Lina Sofia Cardona Martínez",
+            "description": "Primera jugadora en alcanzar el título de WFM, cuenta con múltiples logros nacionales e internacionales.",
+            "title": "WFM",
+            "picture": "src/assets/static/players/Lina.PNG"
+        },
+        {
+            "id": 5,
+            "name": "Julian Andrés Muñoz Hernández",
+            "description": "Fuerte jugador ha alcanzado uno de los elos más altos del departamento. ",
+            "title": "CM",
+            "picture": "src/assets/static/players/Julian.PNG"
+        }
+    ]
+}
