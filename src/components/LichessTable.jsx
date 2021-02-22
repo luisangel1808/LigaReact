@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import usePlayers from'../hooks/usePlayers'
 import '../assets/styles/components/LichessTable.scss'
 
@@ -9,7 +9,7 @@ const LichessTable = () => {
     const playerObject = playersLichess.map( playerL => usePlayers(API,playerL) )
     return (
         <main>
-            <table>
+            <table className="tableLichess">
             <thead>
                 <tr>
                     <th>Usuario</th>
@@ -25,7 +25,7 @@ const LichessTable = () => {
                 if(Object.keys(player).length != 0){  
                     return(
                         <tr key={player.id}>
-                            <td>{player.username}</td>
+                            <td><a href={`https://lichess.org/@/${player.username}`} target="_blank">{player.username}</a></td>
                             <td><div className={`online-${player.online}`}></div></td>
                             <td>{`${player.profile.firstName||""} ${player.profile.lastName||""}`}</td>
                             <td>{player.perfs.blitz.rating}</td>

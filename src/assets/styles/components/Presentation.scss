@@ -1,4 +1,4 @@
-.inicio {
+.presentation {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,13 +7,13 @@
     background: linear-gradient(207.8deg, #eeeae7 16.69%, #1a8cf7 100%);
 }
     
-.inicio img{
+.presentation img{
     width: 150px;
     height: 100px;
     margin-top: 10px;
     align-self: center;
 }
-.inicio__container{
+.presentation__container{
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -22,20 +22,20 @@
     text-align: center;
     align-self: center;
 }
-.inicio__container h2{
+.presentation__container h2{
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: #FFF;
 }
-.inicio__container p{
+.presentation__container p{
     margin-top: 25px;
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: aliceblue;
 }
     
-.inicio__container .inicio__button{
+.presentation__container .presentation__button{
     position: absolute;
     left: calc(50% - 108px);  
     display: block;

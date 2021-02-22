@@ -24,6 +24,9 @@ const Header = () =>(
                 <Link to="/lichess">
                     <li className="item button">Datos Lichess</li>
                 </Link>   
+                <Link to="/nuevoTorneo">
+                    <li className="item button">Crear torneo</li>
+                </Link>   
                 <li className="toggle"><i className="fas fa-bars"></i></li>
             </ul>        
         </nav>
