@@ -1,12 +1,20 @@
 
+header{
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
 nav {
     background: white;
     padding: 10px;
+    box-shadow: 0 12px 6px -6px black;
 }
 .logo {
     height: 55px;
+    
 }
 .menu {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -24,6 +32,7 @@ a{
 }
 li:hover {
     color: rgb(178, 178, 240);
+    font-size: 1.1rem;
 }
 .item {
     width: 100%;

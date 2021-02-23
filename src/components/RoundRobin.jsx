@@ -4,7 +4,6 @@ import AppContext from '../context/AppContext';
 const RoundRobin = () => {
     const {state, createFixture, updateClasification} = useContext(AppContext);
     const playersArray = state.playersList.map((player)=> player.name);
-    //let playersArray = ['Luisao','Lina','Navia','Julian','Richard','Angela', 'Pedro'];
     let rounds;
 
     (playersArray.length%2!=0)? rounds = playersArray.length : rounds = (playersArray.length)-1

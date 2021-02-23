@@ -25,6 +25,12 @@ const useGamesData = () =>{
             }) 
     }
 
+    const addPlayersTournament = payload =>{
+        setState({
+            
+        })
+    }
+
     const addToPlayersList = payload =>{
         setState({
             ...state,

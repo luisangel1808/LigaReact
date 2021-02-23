@@ -23,7 +23,7 @@ const App = () => {
             <Route exact path="/clasificacion" component={Clasification} />
             <Route exact path="/jugadores" component={Outside} />
             <Route exact path="/nuevoTorneo/torneo" component={Tournament} />
-            <Route exact path="/nuevoTorneo" component={Tournament} /> {/*  poner select  */}
+            <Route exact path="/nuevoTorneo/jugadores" component={Select} />
             <Route exact path="/registrarJugador" component={AddPlayer} />
             <Route exact path="/videos" component={Videos} />
             <Route exact path="/lichess" component={Lichess} />
